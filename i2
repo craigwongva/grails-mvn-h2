@@ -1,0 +1,11 @@
+#https://madstorp.wordpress.com/2014/02/02/grails-and-maven-integration/
+
+##This statement requires me to press enter twice:
+#mvn archetype:generate -DarchetypeGroupId=org.grails -DarchetypeArtifactId=grails-maven-archetype -DarchetypeVersion=2.3.4 -DgroupId=com.demo -DartifactId=my-starter-app
+
+#The above probably won't be needed, since I'll save its results in a repo.
+#cd my-starter-app
+#mvn initialize
+
+#sed -i "s/grails.project.target.level = 1.6/grails.project.target.level = 1.7/" grails-app/conf/BuildConfig.groovy
+#sed -i 's/grails.project.source.level = 1.6/grails.project.source.level = 1.7/' grails-app/conf/BuildConfig.groovy
